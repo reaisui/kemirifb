@@ -1,0 +1,120 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.7;
+}
+
+h1, h2 {
+    color: #000000; /* Warna headline mirip CNN */
+    font-weight: bold;
+}
+
+p, ul {
+    font-size: 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.comments-section {
+    margin-top: 50px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.list-unstyled {
+    margin-left: 20px;
+}
+
+.image-credit {
+    font-size: 0.85rem;
+    text-align: right;
+    margin-top: -10px;
+}
+
+/* News preview image */
+.news-preview img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Mobile responsiveness adjustments */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, h3 {
+        font-size: 1.25rem;
+    }
+
+    p, ul {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bg-light {
+        padding: 15px;
+    }
+
+    .comments-section {
+        margin-top: 30px;
+    }
+
+    .news-preview img {
+        width: 60px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+}
